@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    height: 50px;
 
 }
 
@@ -15,9 +14,7 @@
 }
 
 .back {
-    width: 95%;
     margin: 0;
-    padding: 35px 30px 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,10 +22,10 @@
 }
 
 .logo {
-
-    width: 190px;
-    cursor: pointer;
     height: auto;
+    width: 150px;
+    cursor: pointer;
+    padding-top: 6px;
 }
 
 .back ul li {
@@ -57,14 +54,16 @@
 }
 
 .back ul li a:hover::after {
+
     width: 100%;
 }
+
 
 .heding {
     width: 100%;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 45%;
+    transform: translateY(-25%);
     text-align: center;
     color: #fff;
 }
@@ -75,7 +74,7 @@
 }
 
 .heding p {
-    margin: 50px auto;
+    margin: 10px auto;
     font-size: 20px;
     line-height: 25px;
 
@@ -85,7 +84,7 @@ button {
     width: 200px;
     padding: 15px 0;
     text-align: center;
-    margin: 20px 10px;
+    margin: 17px 10px;
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid #009688;
@@ -126,6 +125,8 @@ button:hover span {
 
     .menu-toggle {
         display: block;
+        height: 47px;
+        width: 47px;
     }
 
     .logo {
@@ -136,4 +137,16 @@ button:hover span {
         display: block !important;
     }
 
+    .heding p {
+        font-size: 22px;
+        /* line-height: 0px; */
+    }
+
+    .heding h1 {
+        font-size: 37px;
+    }
+
+    button {
+        width: 125px;
+    }
 }
