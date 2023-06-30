@@ -76,6 +76,7 @@
     margin: 10px auto;
     font-size: 20px;
     line-height: 25px;
+    width: 80%;
 
 }
 
@@ -140,8 +141,9 @@ button:hover span {
     }
 
     .heding p {
-        font-size: 11px;
+        font-size: 10px;
         line-height: 17px;
+        width: 94%;
     }
 
     .heding h1 {
